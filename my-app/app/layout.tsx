@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { WhatsAppFloat } from "@/components/whatsapp-float";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -48,6 +49,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />
+        <WhatsAppFloat />
       </body>
     </html>
   );
