@@ -9,7 +9,7 @@ export const site = {
   name: "Gurukripa Hostel",
   city: "Kota, Rajasthan",
   phone: "", // e.g. "+91 98290 00000"
-  whatsapp: "", // digits only, e.g. "919829000000"
+  whatsapp: "919549175383", // digits only, with country code
   email: "",
 };
 
