@@ -1,6 +1,6 @@
 import { telHref, waHref } from "@/lib/hostels";
 
-/** Call / WhatsApp / Directions buttons. Call and WhatsApp render only once a number is set in lib/hostels.ts. */
+/** Call / WhatsApp / Directions buttons. Call and WhatsApp render only once a number is set in lib/hostels.ts. */ 
 export function ContactActions({
   mapUrl,
   message,
